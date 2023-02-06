@@ -3,7 +3,7 @@ import { Link, Outlet } from 'react-router-dom';
 function MainLayout() {
     return (
         <>
-            <header className="p-2 h-16 shadow-gray-300 shadow-sm bg-white">
+            <header className="p-2 h-16 w-full shadow-gray-300 shadow-sm bg-white absolute">
                 <nav className="bg-white">
                     <button>
                         <Link to="/" className="w-min">
