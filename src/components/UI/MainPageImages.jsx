@@ -1,6 +1,6 @@
 function MainPageImages() {
     return (
-        <div className="flex justify-center flex-wrap my-8">
+        <article className="flex justify-center flex-wrap my-8">
             <div className="m-3">
                 <img
                     src="komi1.png"
@@ -22,7 +22,7 @@ function MainPageImages() {
                     className="w-14 sm:w-36 md:w-60"
                 />
             </div>
-        </div>
+        </article>
     );
 }
 

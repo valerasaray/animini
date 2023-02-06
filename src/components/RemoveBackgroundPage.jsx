@@ -1,5 +1,5 @@
 function RemoveBackgroundPage() {
-    return <div>RemoveBackgroundPage</div>;
+    return <main>RemoveBackgroundPage</main>;
 }
 
 export default RemoveBackgroundPage;

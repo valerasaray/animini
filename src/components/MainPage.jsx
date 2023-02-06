@@ -3,10 +3,12 @@ import MainPageButtons from './UI/MainPageButtons';
 
 function MainPage() {
     return (
-        <div>
-            <MainPageImages />
-            <MainPageButtons />
-        </div>
+        <main>
+            <section>
+                <MainPageImages />
+                <MainPageButtons />
+            </section>
+        </main>
     );
 }
 
