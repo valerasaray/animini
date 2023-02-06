@@ -1,5 +1,5 @@
-import MainPageImages from "./UI/MainPageImages";
-import MainPageButtons from "./UI/MainPageButtons";
+import MainPageImages from './UI/MainPageImages';
+import MainPageButtons from './UI/MainPageButtons';
 
 function MainPage() {
     return (

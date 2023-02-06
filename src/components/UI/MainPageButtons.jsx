@@ -1,5 +1,5 @@
-import React from "react";
-import LinkButton from "./LinkButton";
+import React from 'react';
+import LinkButton from './LinkButton';
 
 function MainPageButtons() {
     return (
