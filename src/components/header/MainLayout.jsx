@@ -1,9 +1,10 @@
 import { Link, Outlet } from 'react-router-dom'
 import { FiMoon, FiSun } from 'react-icons/fi'
-import { useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
+import { DarkMode } from '../../context/context'
 
 function MainLayout() {
-	const [darkMode, setDarkMode] = useState(false)
+	const { darkMode, setDarkMode } = useContext(DarkMode)
 
 	useEffect(() => {
 		const html = document.querySelector('html')
@@ -20,11 +21,19 @@ function MainLayout() {
 				<nav className='p-2 bg-white dark:bg-black flex justify-between'>
 					<button>
 						<Link to='/' className='w-min'>
-							<img
-								src='logo.png'
-								alt='logo'
-								className='h-6 sm:h-14 bg-transparent'
-							/>
+							{darkMode ? (
+								<img
+									src='logoWhite.png'
+									alt='logo'
+									className='h-6 sm:h-14 bg-transparent'
+								/>
+							) : (
+								<img
+									src='logo.png'
+									alt='logo'
+									className='h-6 sm:h-14 bg-transparent'
+								/>
+							)}
 						</Link>
 					</button>
 					<button onClick={() => setDarkMode(!darkMode)}>
