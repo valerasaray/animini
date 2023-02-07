@@ -1,5 +1,5 @@
 import { Link, Outlet } from 'react-router-dom';
-import { FiMoon } from 'react-icons/fi';
+import { FiMoon, FiSun } from 'react-icons/fi';
 
 function MainLayout() {
     return (
@@ -17,6 +17,7 @@ function MainLayout() {
                     </button>
                     <button>
                         <FiMoon className="h-6 w-6 sm:h-16 sm:w-16 bg-transparent" />
+                        {/* <FiSun className="h-5 w-5 sm:h-14 sm:w-14 bg-transparent" /> */}
                     </button>
                 </nav>
             </header>
