@@ -11,7 +11,7 @@ function MainLayout() {
                             <img
                                 src="logo.png"
                                 alt="logo"
-                                className="h-6 sm:h-16 bg-white"
+                                className="h-6 sm:h-14 bg-white"
                             />
                         </Link>
                     </button>
