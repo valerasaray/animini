@@ -1,5 +1,5 @@
 function MinimizePage() {
-    return <main>MinimizePage</main>;
+	return <main>MinimizePage</main>
 }
 
-export default MinimizePage;
+export default MinimizePage
