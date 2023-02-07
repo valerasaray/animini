@@ -7,7 +7,7 @@ function MainPage() {
             <div className="h-1/5" />
             <section>
                 <MainPageImages />
-                <title className="flex flex-wrap justify-center font-bold p-3 text-sm sm:text-xl text-center">
+                <title className="flex flex-wrap justify-center font-bold p-3 text-sm sm:text-xl text-center dark:text-white">
                     Генерация минималистичных аниме-артов
                 </title>
                 <MainPageButtons />

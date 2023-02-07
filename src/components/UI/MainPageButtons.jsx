@@ -6,13 +6,13 @@ function MainPageButtons() {
         <nav className="flex justify-center">
             <LinkButton
                 to="removebg"
-                className="mr-1 sm:m-3 p-1 sm:p-3 border-2 border-black rounded-md text-white bg-black text-sm sm:text-lg"
+                className="ml-1 mr-1 sm:m-3 p-1 sm:p-3 rounded-md text-white bg-black text-sm sm:text-lg w-28 sm:w-44 flex justify-center dark:bg-white dark:text-black"
             >
                 Удалить фон
             </LinkButton>
             <LinkButton
                 to="minimize"
-                className="ml-1 sm:m-3 p-1 sm:p-3 border-2 border-black rounded-md text-white bg-black text-sm sm:text-lg"
+                className="ml-1 mr-1 sm:m-3 p-1 sm:p-3 rounded-md text-white bg-black text-sm sm:text-lg w-28 sm:w-44 flex justify-center dark:bg-white dark:text-black"
             >
                 Нарисовать арт
             </LinkButton>
