@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import AppRouter from './AppRouter'
 import { DarkMode } from './context/context'
+import './app.scss'
 
 function App() {
 	const [darkMode, setDarkMode] = useState(false)
