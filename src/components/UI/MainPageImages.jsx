@@ -1,31 +1,24 @@
 import { useContext } from 'react'
 import { DarkMode } from '../../context/context'
+import styles from './MainPageImages.module.scss'
 
 function MainPageImages() {
 	const { darkMode } = useContext(DarkMode)
 
 	return (
-		<article className='flex justify-center mt-3'>
+		<article className={styles.article}>
 			<div>
-				<img src='komi1.png' alt='komi1' className='w-20 sm:w-36 md:w-60' />
+				<img src='komi1.png' alt='komi1' className={styles.imgKomi} />
 			</div>
-			<div className='m-4'>
+			<div className={styles.arrows}>
 				{darkMode ? (
-					<img
-						src='arrowWhite.png'
-						alt='arrow'
-						className='w-10 sm:w-20 md:w-28 my-4 sm:my-10 md:my-20'
-					/>
+					<img src='arrowWhite.png' alt='arrow' className={styles.imgArrow} />
 				) : (
-					<img
-						src='arrow.png'
-						alt='arrow'
-						className='w-10 sm:w-20 md:w-28 my-4 sm:my-10 md:my-20'
-					/>
+					<img src='arrow.png' alt='arrow' className={styles.imgArrow} />
 				)}
 			</div>
 			<div>
-				<img src='komi2.png' alt='komi2' className='w-20 sm:w-36 md:w-60' />
+				<img src='komi2.png' alt='komi2' className={styles.imgKomi} />
 			</div>
 		</article>
 	)

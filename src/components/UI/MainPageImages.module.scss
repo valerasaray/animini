@@ -1,0 +1,14 @@
+.article {
+	@apply flex justify-center mt-3;
+
+	.imgKomi {
+		@apply w-20 sm:w-36 md:w-60;
+	}
+
+	.arrows {
+		@apply m-4;
+		.imgArrow {
+			@apply w-10 sm:w-20 md:w-28 my-4 sm:my-10 md:my-20;
+		}
+	}
+}

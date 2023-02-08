@@ -1,0 +1,23 @@
+.header {
+	@apply h-6 sm:h-16 w-full shadow-lg absolute;
+
+	.nav {
+		@apply p-2 bg-white flex justify-between;
+
+		.link {
+			@apply w-min;
+
+			.imgLogo {
+				@apply h-6 sm:h-14 bg-transparent;
+			}
+		}
+
+		.imgSun {
+			@apply h-6 w-6 sm:h-14 sm:w-16 bg-transparent text-white;
+		}
+
+		.imgMoon {
+			@apply h-6 w-6 sm:h-14 sm:w-14 bg-transparent;
+		}
+	}
+}

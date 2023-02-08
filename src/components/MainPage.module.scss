@@ -1,0 +1,11 @@
+.main {
+	@apply h-full;
+
+	.headerBlock {
+		@apply h-1/5;
+	}
+
+	.title {
+		@apply flex flex-wrap justify-center font-bold p-3 text-sm sm:text-xl text-center;
+	}
+}

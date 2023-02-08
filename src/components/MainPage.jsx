@@ -1,13 +1,14 @@
 import MainPageImages from './UI/MainPageImages'
 import MainPageButtons from './UI/MainPageButtons'
+import styles from './MainPage.module.scss'
 
 function MainPage() {
 	return (
-		<main className='h-full'>
-			<div className='h-1/5' />
+		<main className={styles.main}>
+			<div className={styles.headerBlock} />
 			<section>
 				<MainPageImages />
-				<title className='flex flex-wrap justify-center font-bold p-3 text-sm sm:text-xl text-center dark:text-white'>
+				<title className={styles.title + ' dark:text-white'}>
 					Генерация минималистичных аниме-артов
 				</title>
 				<MainPageButtons />
