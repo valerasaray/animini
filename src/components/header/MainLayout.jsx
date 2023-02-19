@@ -8,10 +8,18 @@ function MainLayout() {
 	const { darkMode, setDarkMode } = useContext(DarkMode)
 
 	useEffect(() => {
+		if (localStorage.getItem('dark')) {
+			setDarkMode(true)
+		}
+	}, [])
+
+	useEffect(() => {
 		const html = document.querySelector('html')
 		if (darkMode) {
+			localStorage.setItem('dark', 'true')
 			html.classList.add('dark')
 		} else {
+			localStorage.removeItem('dark')
 			html.classList.remove('dark')
 		}
 	}, [darkMode])
