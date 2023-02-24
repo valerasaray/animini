@@ -5,7 +5,6 @@ import styles from './MainPage.module.scss'
 function MainPage() {
 	return (
 		<main className={styles.main}>
-			<div className={styles.headerBlock} />
 			<section>
 				<MainPageImages />
 				<title className={styles.title + ' dark:text-white'}>
